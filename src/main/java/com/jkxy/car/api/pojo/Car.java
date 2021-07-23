@@ -7,6 +7,7 @@ public class Car {
     private String carType;
     private String price;
     private String carSeries;
+    private int count;
 
     public int getId() {
         return id;
@@ -46,6 +47,14 @@ public class Car {
 
     public void setCarSeries(String carSeries) {
         this.carSeries = carSeries;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public int getCount() {
+        return count;
     }
 
     @Override
